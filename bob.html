@@ -1,0 +1,78 @@
+<script type="text/javascript" src="https://dl.dropbox.com/s/2is2rmxt9120tiw/script.js"></script>
+<div class="q1" style="background-color: red; width: 700px;margin-left: 300px ;">
+	<img src='4.jpg' style=";width: 700px ;">
+	<div style="font-size: 30px;">Вопрос</div>
+	<h1>Что сказал Губка Боб на этом кадре?:</h1>
+	<div class="a1" style= "background-color: green;  width: 700; font-size: 30px; ">Счастье</div>
+	<div class="a2" style= "background-color: yellow; width: 700; font-size: 30px; ">Удача</div>
+	<div class="a3" style= "background-color: purple; width: 700; font-size: 30px; ">Вооброжение</div>
+</div>
+<div class="q2" style="background-color: blue;height: 720px;width: 700px;margin-left: 300px; display: none">
+	<img src='5.jpg' style=";width: 700px ;">
+	<div style="font-size: 30px;">Вопрос</div>
+	<h1>Кто сидит за столом?:</h1>
+	<div class="a1" style="background-color: green; width: 700; font-size: 30px; ">Сэнди</div>
+	<div class="a2" style="background-color: yellow; width: 700; font-size: 30px; ">Сквидвард</div>
+	<div class="a3" style="background-color: purple; width: 700; font-size: 30px; ">Дэвид</div>
+</div>
+<div class="q3" style="background-color: blue;height: 700px;width: 700px;margin-left: 300px; display: none">
+	<img src='6.jpg' style=";width: 700px ;">
+	<div style="font-size: 30px;">Вопрос</div>
+	<h1>Кем является это Губка к Спанч Бобу?:</h1>
+	<div class="a1" style="background-color: green; width: 700; font-size: 30px; ">Кузен</div>
+	<div class="a2" style="background-color: yellow; width: 700; font-size: 30px; ">Брат</div>
+	<div class="a3" style="background-color: purple; width: 700; font-size: 30px; ">Отец</div>
+</div>
+<div class="q4" style="background-color: blue;height: 1000px;width: 700px;margin-left: 300px; display: none">
+	<img src='8.jpg' style=";width: 700px ;">
+	<div style="font-size: 30px;">Вопрос</div>
+	<h1>Сколько зарабатывает Спанч Боб в месяц?:</h1>
+	<div class="a1" style="background-color: green; width: 700; font-size: 30px; ">20,5$</div>
+	<div class="a2" style="background-color: yellow; width: 700; font-size: 30px; ">0,01$</div>
+	<div class="a3" style="background-color: purple; width: 700; font-size: 30px; ">49,99$</div>
+</div>
+<div class="q5" style="background-color: blue;height: 1150px;width: 700px;margin-left: 300px; display: none">
+	<img src='7.jpg' style=";width: 700px ;">
+	<div style="font-size: 30px;">Вопрос</div>
+	<h1>Смог ли Спанч Боб сдать на права?:</h1>
+	<div class="a1" style="background-color: green; width: 700; font-size: 30px; ">Да</div>
+	<div class="a2" style="background-color: yellow; width: 700; font-size: 30px; ">Нет</div>
+</div>
+<div class="q6" style="background-color: blue;height: 600px;width: 700px;margin-left: 300px; display: none">
+	<img src='9.jpg' style=";width: 700px ;">
+	<div style="font-size: 30px;">Вопрос</div>
+	<h1>колько лет Спанч Бобу?:</h1>
+	<div class="a1" style="background-color: green; width: 700; font-size: 30px; ">36</div>
+	<div class="a2" style="background-color: yellow; width: 700; font-size: 30px; ">21</div>
+	<div class="a3" style="background-color: blue; width: 700; font-size: 30px; ">13</div>
+</div>
+<div class="q7" style="background-color: blue;height: 600px;width: 700px;margin-left: 300px; display: none">
+	<img src='winner.jpg' style=";width: 700px ;">
+	<div class="a1" style="background-color: green; width: 700; font-size: 50px; ">Начать заново</div>
+</div>
+<script> type="text/javascript"
+    find("q1 a1").click("alert", "Это неправмильный ответ")
+    find("q1 a2").click("alert", "Это неправмильный ответ")
+    find("q1 a3").click("show", "q2","ПРАВИЛЬНО!!")
+
+    find("q2 a1").click("show", "q3","ПРАВИЛЬНО!")
+    find("q2 a2").click("alert", "Это неправмильный ответ")
+    find("q2 a3").click("alert", "Это неправмильный ответ")
+
+    find("q3 a1").click("show", "q4","ПРАВИЛЬНО!")
+    find("q3 a2").click("alert", "Это неправмильный ответ")
+    find("q3 a3").click("alert", "Это неправмильный ответ")
+
+    find("q4 a1").click("show", "q5","ПРАВИЛЬНО!!")
+    find("q4 a2").click("alert", "Это неправмильный ответ")
+    find("q4 a3").click("alert", "Это неправмильный ответ")
+
+    find("q5 a1").click("alert", "Это неправмильный ответ")
+    find("q5 a2").click("show", "q6","ПРАВИЛЬНО!!")
+
+    find("q6 a1").click("show", "q7","ПРАВИЛЬНО!!")
+    find("q6 a2").click("alert", "Это неправмильный ответ")
+    find("q6 a3").click("alert", "Это неправмильный ответ")
+
+    find("q7 a1").click("show", "q1","Перезапуск")
+</script>
